@@ -23,6 +23,7 @@ public class DisplayMessage extends ActionBarActivity {
         textView.setTextSize(40);
         textView.setText(message);
         setContentView(textView);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 
